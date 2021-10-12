@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+.hero {
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%),
+    url("https://services.meteored.com/img/article/felicidades-hoy-es-el-dia-internacional-de-las-montanas-222501-1_1280.jpeg");
+}
