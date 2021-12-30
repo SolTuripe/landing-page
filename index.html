@@ -12,15 +12,16 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
     <link rel="stylesheet" href="stiles.css" />
   </head>
+
   <body>
     <header class="hero">
       <div class="textos-hero">
-        <h1>Bienvenidos a Website</h1>
-        <p>Creamos el mejor sitio web para ti</p>
-        <a href="#contacto">Contáctanos</a>
+        <h1>Welcome to Website</h1>
+        <p>We create the best website for you</p>
+        <a href="#contacto">Contact us</a>
       </div>
       <div class="svg-hero" style="height: 150px; overflow: hidden">
         <svg
@@ -30,13 +31,14 @@
         >
           <path
             d="M-1.97,63.64 C149.99,150.00 426.91,-79.44 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-            style="stroke: none; fill: #08f"
+            style="stroke: none; fill: #fff"
           ></path>
         </svg>
       </div>
     </header>
-    <section class="wave contenedor website">
-      <img src="images/ilustracion1.svg" alt="" />
+
+    <section class="wave-contenedor website">
+      <img src="img/ilustracion1.svg" alt="" />
       <div class="contenedor-textos-main">
         <h2 class="titulo left">Title of section</h2>
         <p class="parrafo">
@@ -47,22 +49,64 @@
         <a href="" class="cta">Learn more</a>
       </div>
     </section>
+
     <section class="info">
       <div class="contenedor">
-        <h2 class="titulo left">Juntos podemos apoyar</h2>
+        <h2 class="titulo left">Together we can support each other</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt.
         </p>
       </div>
     </section>
-    <section class="cards contenedor"></section>
+
+    <section class="cards contenedor">
+      <h2 class="titulo">Our Services</h2>
+      <div class="content-cards">
+        <article class="card">
+          <i class="lni lni-graph"></i>
+          <h3>Title Card</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <a href="" class="cta">Learn more</a>
+        </article>
+        <article class="card">
+          <i class="lni lni-database"></i>
+          <h3>Title Card</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <a href="" class="cta">Learn more</a>
+        </article>
+        <article class="card">
+          <i class="lni lni-folder"></i>
+          <h3>Title Card</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <a href="" class="cta">Learn more</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="galeria">
+      <div class="contenedor">
+        <h2 class="titulo">Our Work</h2>
+        <article class="galeria-cont">
+          <img src="img/uno.jpg" alt="" />
+          <img src="img/dos.jpg" alt="" />
+          <img src="img/tres.jpg" alt="" />
+          <img src="img/cuatro.jpg" alt="" />
+          <img src="img/cinco.jpg" alt="" />
+          <img src="img/seis.jpg" alt="" />
+        </article>
+      </div>
+    </section>
+
     <section class="info-last">
       <div class="contenedor last-section">
-        <h2 class="titulo left">Title of section</h2>
-        <p class="parrafo">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa.
-        </p>
-        <a href="" class="cta">Learn more</a>
+        <div class="contenedor-textos-main">
+          <h2 class="titulo left">Title of section</h2>
+          <p class="parrafo">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa.
+          </p>
+          <a href="" class="cta">Learn more</a>
+        </div>
+        <img src="img/ilustracion.svg" alt="" />
       </div>
       <div class="svg-wave" style="height: 150px; overflow: hidden">
         <svg
@@ -72,10 +116,29 @@
         >
           <path
             d="M-1.97,63.64 C149.99,150.00 426.91,-79.44 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-            style="stroke: none; fill: #08f"
+            style="stroke: none; fill: #f5576c"
           ></path>
         </svg>
       </div>
     </section>
+
+    <footer id="contacto">
+      <div class="contenedor">
+        <h2 class="titulo">Contact us</h2>
+        <form action="" class="form">
+          <input class="input" type="text" name="" id="" placeholder="Name" />
+          <input class="input" type="email" name="" id="" placeholder="Email" />
+          <textarea
+            class="input"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <input class="input" type="submit" value="Send" />
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
