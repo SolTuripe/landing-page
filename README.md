@@ -13,4 +13,3 @@ You can also see the page [here](https://solturipe.github.io/landing-page/)
 
 - HTML
 - CSS
-- JAVASCRIPT
