@@ -3,7 +3,7 @@ This project is about creating a Landing Page, with HTML and CSS, fully adaptabl
 
 ## Page view
 
-<p aling="center">
+<p align="center">
 <img src="./img/landing.jpg" width=90%>
 </p>
 
