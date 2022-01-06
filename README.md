@@ -1,4 +1,5 @@
 # Landing Page
+
 This project is about creating a Landing Page, with HTML and CSS, fully adaptable to mobile devices. To practice Css and media queries.
 
 ## Page view
